@@ -3,4 +3,4 @@
 ## Talks
 
 * **Monolithen**
-* **GraphQL vs. REST - ein Vergleich**
+* [**GraphQL vs. REST - ein Vergleich**](GraphQL_vs_REST.pdf)
