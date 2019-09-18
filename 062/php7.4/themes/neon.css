@@ -1,0 +1,49 @@
+/* @theme neon */
+
+@import 'default';
+
+.example pre {
+    width: 90%;
+    float: left;
+    margin-right: 10px;
+}
+
+section {
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+    background-size: auto 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #f92aad;
+    text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+}
+
+h2 {
+    color: #fff5f6;
+    text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+}
+
+h3 {
+    color: #72f1b8;
+    text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
+}
+
+p, p code, ul > li {
+    color: #f97e72;
+}
+
+ul > li > pre {
+    color: rgb(36, 41, 46);
+}
+
+.example a, p a {
+    color: #f4eee4;
+    text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+}
+
+section p img {
+    max-width: 70%;
+}
